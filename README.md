@@ -22,6 +22,13 @@ python](https://www.continuum.io/downloads) as this distribution provides easy a
 * [MDP](http://mdp-toolkit.sourceforge.net) 3.2 or later
 * [Bottleneck](https://pypi.python.org/pypi/Bottleneck) 0.7 or later
 
+On Debian/Ubuntu-based distributions, some additional libraries need to be installed ([GDAL][libgdal] and [Geos][libgeos])
+
+    sudo apt-get install libgeos-dev libgdal1-dev
+
+   [libgdal]: http://www.gdal.org/
+   [libgeos]: https://trac.osgeo.org/geos/
+
 
 ##Examples
 We have built two [Jupyter Notebooks](https://jupyter.org/) to show the
